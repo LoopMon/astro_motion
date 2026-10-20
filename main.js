@@ -23,12 +23,12 @@ class Star {
   }
 }
 
-
 class Ufo {
   x = 0
   y = 0
-  width = 52.8
-  height = 35.7
+  // Redução de 30x da imagem original
+  width = 53 
+  height = 36
   speed = 2
 
   constructor(img, cnv) {
